@@ -1,0 +1,81 @@
+td img {
+/* Another Mozilla/Netscape bug with making sure our images display correctly */
+	display: block;
+}
+
+#FWTableContainer1972225763 {
+/* The master div to make sure that our popup menus get aligned correctly.  Be careful when playing with this one. */
+	position:relative;
+	margin:0px;
+	width:700px;
+	height:60px;
+	text-align:left;
+}
+
+#MMMenuContainer1007185531_0 {
+/* This ID is related to the master menu div for menu MMMenuContainer1007185531_0 and contains the important positioning information for the menu as a whole */
+	position:absolute;
+	left:485px;
+	top:58px;
+	visibility:hidden;
+	z-index:300;
+}
+
+#MMMenu1007185531_0 {
+/* This class defines things about menu MMMenu1007185531_0's div. */
+	position:absolute;
+	left:0px;
+	top:0px;
+	visibility:hidden;
+	background-color:#ffffff;
+	border:0px solid #009933;
+	width:190px;
+	height:28px;
+}
+
+.MMMIFVStyleMMMenu1007185531_0 {
+/* This class determines the general characteristics of the menu items in menu MMMenu1007185531_0 */
+	border-top:0px solid #ffffff;
+	border-left:0px solid #ffffff;
+	border-bottom:0px solid #ffffff;
+	border-right:0px solid #ffffff;
+	width:190px;
+	height:28px;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:184px;
+	height:22px;
+}
+
+#MMMenu1007185531_0_Item_0 {
+/* Unique ID for item 0 of menu MMMenu1007185531_0 so we can set its position */
+	left:0px;
+	top:0px;
+}
+
+#MMMenuContainer1007185531_0 img {
+/* needed for Mozilla/Camino/Netscape */
+	border:0px;
+}
+
+#MMMenuContainer1007185531_0 a {
+/* Controls the general apperance for menu MMMenuContainer1007185531_0's items, including color and font */
+	text-decoration:none;
+	font-family:Courier New, Courier, monospace;
+	font-size:18px;
+	color:#009933;
+	text-align:center;
+	vertical-align:middle;
+	padding:3px;
+	background-color:#ffffff;
+	font-weight:normal;
+	font-style:normal;
+	display:block;
+	position:absolute;
+}
+
+#MMMenuContainer1007185531_0 a:hover {
+/* Controls the mouse over effects for menu MMMenuContainer1007185531_0 */
+	color:#ffffff;
+	background-color:#009933;
+}
